@@ -1,6 +1,6 @@
 FROM python:3.10-slim-buster
 
-WORKDIR /Mrbannker
+WORKDIR /aisesgei
 
 RUN apt update && apt upgrade -y
 COPY requirements.txt /requirements.txt
